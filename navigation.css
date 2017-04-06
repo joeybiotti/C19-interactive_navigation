@@ -1,0 +1,8 @@
+a:hover {
+	background-color: yellow;
+	color: purple;
+}
+
+a:active {
+	font-size: 21px;
+}
