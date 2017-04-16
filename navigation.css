@@ -1,8 +1,38 @@
-a:hover {
-	background-color: yellow;
-	color: purple;
+
+.navbar {
+	background-color: grey;
+	border: solid 1.5px black;
+	max-width: 50%;
+	margin: 15px 25px;
 }
 
-a:active {
-	font-size: 21px;
+.navbar ul {
+	padding: 20px;
+	text-align: center;
 }
+
+.navbar li {
+	display: inline;
+	font-size: 15px;
+	border-right: solid 1px black;
+
+}
+
+.navbar a {
+	list-style-type: none;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+
+	font-size: 15px;
+	padding: 16px;
+	color: white;
+}
+
+.navbar a:hover {
+	background-color: lightgrey;
+}
+
+.navbar a:focus {
+	font-size: 20px;
+}
+
